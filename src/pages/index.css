@@ -1,0 +1,15 @@
+.notesList {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.modal-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-centered *:focus-visible {
+  outline: none !important;
+}
