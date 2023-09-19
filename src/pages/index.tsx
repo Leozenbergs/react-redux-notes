@@ -6,6 +6,7 @@ import NotesList from "../components/NotesList";
 // import { addNewNote } from '../redux/reducers/notesSlice.js'
 import { useSelector } from "react-redux";
 import CreateNoteModal from "../components/CreateNoteModal";
+import NotesCanvas from "../components/NotesCanvas";
 
 
 export default () => {
@@ -17,6 +18,7 @@ export default () => {
       <div className="notesList">
         {!!notes && <NotesList notes={notes} />}
       </div>
+      {!!notes && <NotesCanvas notes={notes} />}
       <CreateNoteModal visibility={visibility} />
     </ Container>
   )
