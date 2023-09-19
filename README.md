@@ -1,11 +1,11 @@
 # React + TypeScript + Vite
 
 ## Installation
-´´´ shell
+``` shell
 yarn
 # or 
 npm install
-´´´
+```
 
 ## Serve the app
 ``` shell
